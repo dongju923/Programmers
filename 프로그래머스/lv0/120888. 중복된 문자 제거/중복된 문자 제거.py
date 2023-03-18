@@ -7,3 +7,12 @@ def solution(my_string):
     # 리스트내 문자열을 join으로 문자열로 만듦
     return ''.join(li)
     #return ''.join(dict.fromkeys(my_string))
+    
+ """
+def solution(my_string):
+    answer = ''
+    for i in my_string:
+        if i not in answer:
+            answer+=i
+    return answer
+ """
